@@ -1,0 +1,11 @@
+# application.yml
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/songbook?serverTimezone=UTC&characterEncoding=UTF-8
+    username: ijeong0416
+    password: 340834
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
